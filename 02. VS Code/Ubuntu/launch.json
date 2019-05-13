@@ -5,6 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "bashdb",
+            "request": "launch",
+            "name": "Bash-Debug (simplest configuration)",
+            "program": "${file}",
+            "showDebugOutput": true,
+            "terminalKind": "integrated"
+        },
+        {
             "name": "gcc build and debug active file",
             "type": "cppdbg",
             "request": "launch",
