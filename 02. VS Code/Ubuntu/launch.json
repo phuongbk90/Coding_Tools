@@ -7,13 +7,13 @@
         {
             "type": "bashdb",
             "request": "launch",
-            "name": "Bash-Debug (simplest configuration)",
+            "name": "Bash Debug",
             "program": "${file}",
             "showDebugOutput": true,
             "terminalKind": "integrated"
         },
         {
-            "name": "gcc build and debug active file",
+            "name": "GCC Debug",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
