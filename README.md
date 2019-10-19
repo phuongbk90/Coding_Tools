@@ -4,3 +4,7 @@ https://medium.com/@jerrygoyal/run-debug-intellisense-c-c-in-vscode-within-5-min
 
 1. Smartgit
 Import setting -> /home/xp/.config/smartgit
+
+2. Bcompare
+cp /home/xp/bin/bcompare -> /usr/bin/bcompare
+
